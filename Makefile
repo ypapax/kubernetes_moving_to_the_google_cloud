@@ -18,3 +18,5 @@ pods:
 	kubectl get pods
 projlist:
 	gcloud projects list
+services:
+	kubectl get services
