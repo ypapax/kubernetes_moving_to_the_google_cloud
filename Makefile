@@ -11,7 +11,7 @@ zone:
 set:
 	gcloud config set project hazel-champion-200108 # setting current project, hazel-champion-200108  is id of a project inside google cloud
 create:
-	gcloud container clusters create cluster-maxim # cluster-maxim is a name of new project
+	gcloud container clusters create cluster-maxim # cluster-maxim is a name of new cluster
 nodes:
 	kubectl get nodes
 pods:
