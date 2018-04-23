@@ -12,6 +12,8 @@ set:
 	gcloud config set project hazel-champion-200108 # setting current project, hazel-champion-200108  is id of a project inside google cloud
 create:
 	gcloud container clusters create cluster-maxim # cluster-maxim is a name of new cluster
+delete:
+	gcloud container clusters delete cluster-maxim # deleting the cluster (clean up at the end)
 nodes:
 	kubectl get nodes
 pods:
